@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Chess Coach",
+  "version": "1.0.0",
+  "description": "Sends the moves of the current chess.com game to your local Chess Coach server.",
+  "host_permissions": ["http://127.0.0.1/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.chess.com/*", "https://chess.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
