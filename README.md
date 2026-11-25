@@ -14,3 +14,4 @@ what you need:
 
 * VERY IMPORTANT
 * the extension is going to be running all the time in every website so you have to go to extension/manifest.json and change matches: [all urls] to what website you like
+* example: "matches": ["https://www.somerandomchesssite.com/*", "https://somerandomchesssite.com/*"]
