@@ -11,3 +11,6 @@ what you need:
 3. after downloading stockfish take the address of the .exe file of stockfish and put in the return r"" in def find_stockfish() in main_borad.py
 4. then go the browser > extensions > enable Developer mode > load unpacked chose extension folder
 5. do not always pick the best move :>
+
+* VERY IMPORTANT
+* the extension is going to be running all the time in every website so you have to go to extension/manifest.json and change matches: [all urls] to what website you like
