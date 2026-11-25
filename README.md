@@ -10,4 +10,4 @@ what you need:
 2. stockfish you need to download it from their website
 3. after downloading stockfish take the address of the .exe file of stockfish and put in the return r"" in def find_stockfish() in main_borad.py
 4. then go the browser > extensions > enable Developer mode > load unpacked chose extension folder
-5. enjoy i think
+5. do not always pick the best move :>
